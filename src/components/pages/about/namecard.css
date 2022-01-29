@@ -1,0 +1,33 @@
+.main {
+	/* display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+	justify-content: center; */
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	gap: 1rem;
+	/* justify-content: center; */
+	margin: 0 5%;
+}
+.card {
+	position: relative;
+}
+.person-image {
+	margin: 0.5rem 0;
+	width: 15rem;
+	border-radius: 25px;
+	align-self: center;
+	justify-self: center;
+}
+.card-flex > h4 {
+	margin: 0;
+}
+.placed {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	padding:0 0.5rem;
+	background-color: white;
+	font-weight: bolder;
+	border-radius: 0 25px 0 0 ;
+}

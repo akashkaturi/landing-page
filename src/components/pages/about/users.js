@@ -1,0 +1,50 @@
+import dp from './dp.jpg';
+const creators = [
+	{
+		id: 1,
+		name: 'Akash K',
+		age: 21,
+		mail: 'akashkaturi77@gmail.com',
+		image: dp,
+		followers: 20,
+		placed: false,
+		card: true,
+	},
+	{
+		id: 2,
+		name: 'Karthik K',
+		age: 18,
+		mail: 'kkaturi2003@gmail.com',
+		image: dp,
+		placed: false,
+		card: true,
+	},
+	{
+		id: 3,
+		name: 'Ram P',
+		age: 20,
+		mail: 'ram_pothineni@gmail.com',
+		image: dp,
+		placed: false,
+		card: true,
+	},
+	{
+		id: 4,
+		name: 'Lakshman K',
+		age: 19,
+		mail: 'lucky@gmail.com',
+		image: dp,
+		placed: false,
+		card: true,
+	},
+	{
+		id: 5,
+		name: 'Kumar S',
+		age: 20,
+		mail: 'kumar@gmail.com',
+		image: dp,
+		placed: false,
+		card: true,
+	},
+];
+export default creators;

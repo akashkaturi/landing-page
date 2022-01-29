@@ -1,0 +1,24 @@
+.banner_content {
+	min-height: 50vh;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner_content > div {
+	margin-top: 5rem;
+}
+.banner_content > h1,
+h3 {
+	margin: 0;
+}
+
+.banner_content > h4 {
+	margin-top: auto;
+}
+
+.btn{
+	padding: 0.5em;
+	margin: 0.5rem 0;
+}

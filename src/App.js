@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Home from './components/pages/homepage/Home';
+import About from './components/pages/about/About';
+import ContactUs from './components/pages/Contact_us';
+import MemeGenerator from './components/pages/memeGenerator/MemeGenerator';
+import Form from './components/pages/form/Form';
 import './App.css';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<BrowserRouter>
+			<div className='App'>
+				{/* <h1>Hello</h1>
+				 */}
+				<Navbar></Navbar>
+				<Routes>
+					<Route exact path='/' element={<Home />} />
+					<Route exact path='/about' element={<About />} />
+					<Route exact path='/memegenerator' element={<MemeGenerator />} />
+					<Route exact path='/contactus' element={<ContactUs />} />
+					<Route exact path='/form' element={<Form />} />
+				</Routes>
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;

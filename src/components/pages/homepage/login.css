@@ -1,0 +1,19 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	width: min-content;
+	justify-content: center;
+	gap: 1rem;
+}
+.login > input {
+	text-indent: 1rem;
+}
+#receivemails {
+	margin-right: 1rem;
+}
+.homepage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
